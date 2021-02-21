@@ -11,7 +11,7 @@ public class TestParrot{
     [Fact]
     public void HasBreedTest(){
         Assert.Equal("Some kind of parrot", Parrot1.GetBreed());
-    }S
+    }
 
     [Fact]
     public void HasDietTest(){
