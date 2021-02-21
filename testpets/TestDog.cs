@@ -19,7 +19,7 @@ public class TestDog{
     }
 
     [Fact]
-    public void WoofTest(){
-        Assert.Equal("Woof woof!", Dog1.Bark());
+    public void CanMakeNoise(){
+        Assert.Equal("Dog says woof", Dog1.MakeNoise("Dog", "woof"));
     }
 }
