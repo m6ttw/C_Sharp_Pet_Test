@@ -1,14 +1,8 @@
 using System;
 
-class Dog {
-    private string breed;
+public class Dog : Pet {
 
-    public Dog(string breedName) {
-        breed = breedName;
-    }
-
-    public string GetBreedName(){
-        return breed;
+    public Dog(string nameOfPet, string breedName, string petDiet) : base(nameOfPet, breedName, petDiet) {
     }
 
     public string Bark(){
