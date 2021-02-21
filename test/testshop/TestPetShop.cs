@@ -8,13 +8,13 @@ public class TestPetShop{
     
     [Fact]
     public void StockIsEmptyTest(){
-        Assert.Equal(0, shop.GetStockCount());
+        Assert.Equal(0, shop.StockCount);
     }
 
     [Fact]
     public void AddToStockTest(){
         shop.AddToStock(dog);
-        Assert.Equal(1, shop.GetStockCount());
+        Assert.Equal(1, shop.StockCount);
     }
 
     [Fact]
@@ -23,6 +23,6 @@ public class TestPetShop{
         shop.AddToStock(cat);
         shop.AddToStock(parrot);
         shop.RemoveFromStock(cat);
-        Assert.Equal(2, shop.GetStockCount());
+        Assert.Equal(2, shop.StockCount);
     }
 }

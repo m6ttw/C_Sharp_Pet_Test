@@ -8,10 +8,8 @@ public class PetShop{
         this.pets = new ArrayList();
     }
 
-    public int GetStockCount(){
-        return pets.Count;
-    }
-
+    public int StockCount => pets.Count;
+// fat arrow is a 'Lambda' function
     public void AddToStock(Pet pet){
         pets.Add(pet);
     }
