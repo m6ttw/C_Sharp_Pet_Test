@@ -5,7 +5,7 @@ public class PetShop{
     ArrayList pets;
     
     public PetShop(){
-        pets = new ArrayList();
+        this.pets = new ArrayList();
     }
 
     public int GetStockCount(){

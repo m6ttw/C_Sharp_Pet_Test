@@ -2,6 +2,6 @@ using System;
 
 public class Dog : Pet {
 
-    public Dog(string nameOfPet, string breedName, string petDiet) : base(nameOfPet, breedName, petDiet) {
+    public Dog(string name, string breed, string diet) : base(name, breed, diet) {
     }
 }

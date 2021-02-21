@@ -5,10 +5,10 @@ public abstract class Pet {
     string breed;
     string diet;
 
-    public Pet(string nameOfPet, string breedName, string petDiet){
-        name = nameOfPet;
-        breed = breedName;
-        diet = petDiet;
+    public Pet(string name, string breed, string diet){
+        this.name = name;
+        this.breed = breed;
+        this.diet = diet;
     }
     public string GetName(){
         return name;
