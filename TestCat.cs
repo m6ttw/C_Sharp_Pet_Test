@@ -12,4 +12,9 @@ public class TestCat{
     public void NameTest(){
         Assert.Equal("Moggy", Cat1.GetName());
     }
+
+    [Fact]
+    public void CanMakeNoise(){
+        Assert.Equal("Cat says meow", Cat1.MakeNoise("Cat", "meow"));
+    }
 }

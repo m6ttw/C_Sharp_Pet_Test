@@ -21,4 +21,8 @@ public abstract class Pet {
     public string GetDiet(){
         return diet;
     }
+
+    public string MakeNoise(String pet, String noise){
+        return pet + " says " + noise;
+    }
 }
